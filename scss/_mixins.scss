@@ -70,8 +70,8 @@
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-@mixin script-font {
-  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+@mixin brand-font {
+  font-family: "Tangerine", serif;
 }
 
 @mixin body-font {
@@ -79,6 +79,6 @@
 }
 
 @mixin heading-font {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
+  font-family: "Junge", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  // text-transform: uppercase;
 }

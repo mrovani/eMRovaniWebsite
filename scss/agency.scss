@@ -80,21 +80,27 @@ h1, h2, h3, h4, h5, h6 {
 
 // Custom Navigation Bar
 
+
+
 .navbar-custom {
-    background-color: $gray-darker;
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
     border-color: transparent;
     .navbar-brand {
         color: $theme-primary;
-        @include script-font;
+        @include brand-font;
+        font-weight: 700;
+        font-size: 48px;
         &:hover,
         &:focus,
         &:active,
         &.active {
             color: darken($theme-primary, 10%);
+
         }
     }
     .navbar-collapse {
         border-color: fade-out(white, .02);
+
     }
     .navbar-toggle {
         background-color: $theme-primary;
@@ -111,25 +117,27 @@ h1, h2, h3, h4, h5, h6 {
         li {
             a {
                 @include heading-font;
-                font-weight: 400;
+                font-weight: 900;
+                font-size: 16px;
                 letter-spacing: 1px;
-                color: white;
+                color: #748C7F;
                 &:hover,
                 &:focus {
                     color: $theme-primary;
                     outline: none;
+
                 }
             }
         }
     }
     .navbar-nav>.active>a {
         border-radius: 0;
-        color: white;
+        color: #192544;
         background-color: $theme-primary;
     }
     .navbar-nav>.active>a:hover,
     .navbar-nav>.active>a:focus {
-        color: white;
+        color: #192544;
         background-color: darken($theme-primary, 10%);
     }
 }
@@ -143,7 +151,7 @@ h1, h2, h3, h4, h5, h6 {
         transition: padding 0.3s;
         border: none;
         .navbar-brand {
-            font-size: 2em;
+            font-size: 3em;
             -webkit-transition: all 0.3s;
             -moz-transition: all 0.3s;
             transition: all 0.3s;
@@ -168,11 +176,12 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
     background-image: url('../img/header-bg.jpg');
+    padding-top: 150px;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
     @include background-cover;
-    text-align: center;
+    text-align: left;
     color: white;
     .intro-text {
         padding-top: 100px;
@@ -244,10 +253,10 @@ section {
 
 // Services Section
 
-.service-heading {
-    margin: 15px 0;
-    text-transform: none;
-}
+// .service-heading {
+//     margin: 15px 0;
+//     text-transform: none;
+// }
 
 // Portfolio Section
 
@@ -288,8 +297,8 @@ section {
                     h4 {
                         margin: 0;
                     }
-                }                
-            }            
+                }
+            }
         }
         .portfolio-caption {
             max-width: 400px;
@@ -562,22 +571,22 @@ section#contact {
     ::-webkit-input-placeholder {
        @include heading-font;
        font-weight: 700;
-       color: $gray-lighter;
+       color: $gray-base;
     }
     :-moz-placeholder { /* Firefox 18- */
        @include heading-font;
        font-weight: 700;
-       color: $gray-lighter;
+       color: $gray-base;
     }
     ::-moz-placeholder {  /* Firefox 19+ */
        @include heading-font;
        font-weight: 700;
-       color: $gray-lighter;
+       color: $gray-base;
     }
-    :-ms-input-placeholder {  
+    :-ms-input-placeholder {
        @include heading-font;
        font-weight: 700;
-       color: $gray-lighter;
+       color: $gray-base;
     }
     .text-danger {
         color: $theme-danger;
@@ -704,8 +713,8 @@ ul.social-buttons {
                 -webkit-transform: rotate(90deg);
                 /* Safari and Chrome */
                 z-index:1052;
-            }            
-        }        
+            }
+        }
     }
     .modal-backdrop {
         opacity: 0;

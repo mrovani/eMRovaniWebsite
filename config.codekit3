@@ -16,25 +16,22 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
-	"\/css\/agency.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/min\/agency-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"\/css\/agency.min.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/min\/agency.min-min.css",
+		"oAP": "\/css\/agency.min.min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/fonts\/Marguerite\/marguerite.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/Marguerite\/marguerite.ttf",
+		"oF": 0
 		},
 	"\/gulpfile.js": {
 		"ft": 64,
@@ -88,7 +85,7 @@
 		},
 	"\/img\/header-bg.jpg": {
 		"ft": 16384,
-		"iS": 238317,
+		"iS": 65748,
 		"oA": 0,
 		"oAP": "\/img\/header-bg.jpg",
 		"oF": 0,
@@ -346,13 +343,6 @@
 		"oAP": "\/index.html",
 		"oF": 0
 		},
-	"\/index.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/index.php",
-		"oF": 0
-		},
 	"\/js\/agency.js": {
 		"ft": 64,
 		"ma": 0,
@@ -392,57 +382,6 @@
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
-		},
-	"\/less\/agency.less": {
-		"aP": 0,
-		"bl": 0,
-		"dJ": 0,
-		"ft": 1,
-		"ie": 1,
-		"iI": 0,
-		"ma": 1,
-		"oA": 0,
-		"oAP": "\/less\/agency.css",
-		"oF": 0,
-		"oS": 0,
-		"rU": 0,
-		"sI": 0,
-		"sM": 0,
-		"sU": 0
-		},
-	"\/less\/mixins.less": {
-		"aP": 0,
-		"bl": 0,
-		"dJ": 0,
-		"ft": 1,
-		"ie": 1,
-		"iI": 0,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/less\/mixins.css",
-		"oF": 0,
-		"oS": 0,
-		"rU": 0,
-		"sI": 0,
-		"sM": 0,
-		"sU": 0
-		},
-	"\/less\/variables.less": {
-		"aP": 0,
-		"bl": 0,
-		"dJ": 0,
-		"ft": 1,
-		"ie": 1,
-		"iI": 0,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/less\/variables.css",
-		"oF": 0,
-		"oS": 0,
-		"rU": 0,
-		"sI": 0,
-		"sM": 0,
-		"sU": 0
 		},
 	"\/LICENSE": {
 		"cB": 0,
@@ -517,7 +456,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/resume\/stylesheets\/css\/min\/index-min.css",
+		"oAP": "\/resume\/stylesheets\/css\/index.min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -527,7 +466,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/resume\/stylesheets\/css\/min\/main-min.css",
+		"oAP": "\/resume\/stylesheets\/css\/main.min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -539,9 +478,9 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/stylesheets\/css\/_reset.css",
+		"oAP": "\/css\/_reset.min.css",
 		"oF": 0,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/resume\/stylesheets\/sass\/helpers\/_variables.scss": {
@@ -552,9 +491,9 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/stylesheets\/css\/_variables.css",
+		"oAP": "\/css\/_variables.min.css",
 		"oF": 0,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/resume\/stylesheets\/sass\/main\/main.scss": {
@@ -565,9 +504,9 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/stylesheets\/css\/main.css",
+		"oAP": "\/css\/main.min.css",
 		"oF": 0,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/resume\/stylesheets\/sass\/pages\/index.scss": {
@@ -578,9 +517,9 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/stylesheets\/css\/index.css",
+		"oAP": "\/css\/index.min.css",
 		"oF": 0,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/scss\/_mixins.scss": {
@@ -591,9 +530,9 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/stylesheets\/css\/_mixins.css",
+		"oAP": "\/css\/_mixins.min.css",
 		"oF": 0,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/scss\/_variables.scss": {
@@ -604,9 +543,9 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/stylesheets\/css\/_variables.css",
+		"oAP": "\/css\/_variables.min.css",
 		"oF": 0,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/scss\/agency.scss": {
@@ -617,9 +556,9 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/stylesheets\/css\/agency.css",
+		"oAP": "\/css\/agency.min.css",
 		"oF": 0,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/vendor\/bootstrap\/css\/bootstrap.css": {
@@ -628,7 +567,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/vendor\/bootstrap\/css\/min\/bootstrap-min.css",
+		"oAP": "\/vendor\/bootstrap\/css\/bootstrap.min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -638,7 +577,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/vendor\/bootstrap\/css\/min\/bootstrap.min-min.css",
+		"oAP": "\/vendor\/bootstrap\/css\/bootstrap.min.min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -706,7 +645,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/vendor\/font-awesome\/css\/min\/font-awesome-min.css",
+		"oAP": "\/vendor\/font-awesome\/css\/font-awesome.min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -716,7 +655,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/vendor\/font-awesome\/css\/min\/font-awesome.min-min.css",
+		"oAP": "\/vendor\/font-awesome\/css\/font-awesome.min.min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -774,7 +713,7 @@
 		"iI": 0,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/vendor\/font-awesome\/less\/animated.css",
+		"oAP": "\/css\/animated.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
@@ -791,7 +730,7 @@
 		"iI": 0,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/vendor\/font-awesome\/less\/bordered-pulled.css",
+		"oAP": "\/css\/bordered-pulled.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
@@ -808,7 +747,7 @@
 		"iI": 0,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/vendor\/font-awesome\/less\/core.css",
+		"oAP": "\/css\/core.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
@@ -825,7 +764,7 @@
 		"iI": 0,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/vendor\/font-awesome\/less\/fixed-width.css",
+		"oAP": "\/css\/fixed-width.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
@@ -842,7 +781,7 @@
 		"iI": 0,
 		"ma": 1,
 		"oA": 0,
-		"oAP": "\/vendor\/font-awesome\/less\/font-awesome.css",
+		"oAP": "\/css\/font-awesome.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
@@ -859,7 +798,7 @@
 		"iI": 0,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/vendor\/font-awesome\/less\/icons.css",
+		"oAP": "\/css\/icons.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
@@ -876,7 +815,7 @@
 		"iI": 0,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/vendor\/font-awesome\/less\/larger.css",
+		"oAP": "\/css\/larger.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
@@ -893,7 +832,7 @@
 		"iI": 0,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/vendor\/font-awesome\/less\/list.css",
+		"oAP": "\/css\/list.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
@@ -910,7 +849,7 @@
 		"iI": 0,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/vendor\/font-awesome\/less\/mixins.css",
+		"oAP": "\/css\/mixins.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
@@ -927,7 +866,7 @@
 		"iI": 0,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/vendor\/font-awesome\/less\/path.css",
+		"oAP": "\/css\/path.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
@@ -944,7 +883,7 @@
 		"iI": 0,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/vendor\/font-awesome\/less\/rotated-flipped.css",
+		"oAP": "\/css\/rotated-flipped.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
@@ -961,7 +900,7 @@
 		"iI": 0,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/vendor\/font-awesome\/less\/screen-reader.css",
+		"oAP": "\/css\/screen-reader.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
@@ -978,7 +917,7 @@
 		"iI": 0,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/vendor\/font-awesome\/less\/stacked.css",
+		"oAP": "\/css\/stacked.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
@@ -995,7 +934,7 @@
 		"iI": 0,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/vendor\/font-awesome\/less\/variables.css",
+		"oAP": "\/css\/variables.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
@@ -1011,9 +950,9 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/stylesheets\/css\/_animated.css",
+		"oAP": "\/css\/_animated.min.css",
 		"oF": 0,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/vendor\/font-awesome\/scss\/_bordered-pulled.scss": {
@@ -1024,9 +963,9 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/stylesheets\/css\/_bordered-pulled.css",
+		"oAP": "\/css\/_bordered-pulled.min.css",
 		"oF": 0,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/vendor\/font-awesome\/scss\/_core.scss": {
@@ -1037,9 +976,9 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/stylesheets\/css\/_core.css",
+		"oAP": "\/css\/_core.min.css",
 		"oF": 0,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/vendor\/font-awesome\/scss\/_fixed-width.scss": {
@@ -1050,9 +989,9 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/stylesheets\/css\/_fixed-width.css",
+		"oAP": "\/css\/_fixed-width.min.css",
 		"oF": 0,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/vendor\/font-awesome\/scss\/_icons.scss": {
@@ -1063,9 +1002,9 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/stylesheets\/css\/_icons.css",
+		"oAP": "\/css\/_icons.min.css",
 		"oF": 0,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/vendor\/font-awesome\/scss\/_larger.scss": {
@@ -1076,9 +1015,9 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/stylesheets\/css\/_larger.css",
+		"oAP": "\/css\/_larger.min.css",
 		"oF": 0,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/vendor\/font-awesome\/scss\/_list.scss": {
@@ -1089,9 +1028,9 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/stylesheets\/css\/_list.css",
+		"oAP": "\/css\/_list.min.css",
 		"oF": 0,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/vendor\/font-awesome\/scss\/_mixins.scss": {
@@ -1102,9 +1041,9 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/stylesheets\/css\/_mixins.css",
+		"oAP": "\/css\/_mixins.min.css",
 		"oF": 0,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/vendor\/font-awesome\/scss\/_path.scss": {
@@ -1115,9 +1054,9 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/stylesheets\/css\/_path.css",
+		"oAP": "\/css\/_path.min.css",
 		"oF": 0,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/vendor\/font-awesome\/scss\/_rotated-flipped.scss": {
@@ -1128,9 +1067,9 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/stylesheets\/css\/_rotated-flipped.css",
+		"oAP": "\/css\/_rotated-flipped.min.css",
 		"oF": 0,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/vendor\/font-awesome\/scss\/_screen-reader.scss": {
@@ -1141,9 +1080,9 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/stylesheets\/css\/_screen-reader.css",
+		"oAP": "\/css\/_screen-reader.min.css",
 		"oF": 0,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/vendor\/font-awesome\/scss\/_stacked.scss": {
@@ -1154,9 +1093,9 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/stylesheets\/css\/_stacked.css",
+		"oAP": "\/css\/_stacked.min.css",
 		"oF": 0,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/vendor\/font-awesome\/scss\/_variables.scss": {
@@ -1167,9 +1106,9 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/stylesheets\/css\/_variables.css",
+		"oAP": "\/css\/_variables.min.css",
 		"oF": 0,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/vendor\/font-awesome\/scss\/font-awesome.scss": {
@@ -1180,9 +1119,9 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/stylesheets\/css\/font-awesome.css",
+		"oAP": "\/css\/font-awesome.min.css",
 		"oF": 0,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/vendor\/jquery\/jquery.js": {
@@ -2971,11 +2910,11 @@
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*-min.css",
+		"autoOutputPathFilenamePattern": "*.min.css",
 		"autoOutputPathRelativePath": "min\/",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 2,
+		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
@@ -3047,12 +2986,12 @@
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
-		"autoOutputAction": 0,
+		"autoOutputAction": 1,
 		"autoOutputPathFilenamePattern": "*.css",
 		"autoOutputPathRelativePath": "..\/css",
 		"autoOutputPathReplace1": "less",
 		"autoOutputPathReplace2": "css",
-		"autoOutputPathStyle": 0,
+		"autoOutputPathStyle": 1,
 		"createSourceMap": 1,
 		"disableJavascript": 0,
 		"ieCompatibility": 1,
@@ -3116,16 +3055,16 @@
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "stylesheets\/css",
+		"autoOutputPathFilenamePattern": "*.min.css",
+		"autoOutputPathRelativePath": "css",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 1,
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
-		"outputStyle": 3,
-		"shouldRunAutoprefixer": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 1
 		},
