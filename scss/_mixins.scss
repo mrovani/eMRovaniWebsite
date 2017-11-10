@@ -2,6 +2,8 @@
 
 // Bootstrap Button Variant
 
+
+
 @mixin button-variant($color, $background, $border) {
   color: $color;
   background-color: $background;
@@ -67,18 +69,21 @@
 // Font Mixins
 
 @mixin serif-font {
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
 }
 
 @mixin brand-font {
-  font-family: "Tangerine", serif;
+  font-family: "Poiret One", cursive;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 @mixin body-font {
-  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 @mixin heading-font {
-  font-family: "Junge", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  // text-transform: uppercase;
+  font-family: "Poiret One", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
 }

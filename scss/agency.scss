@@ -65,17 +65,21 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn-primary {
     @include button-variant(white, $theme-primary, $theme-primary);
-    @include heading-font;
-    font-weight: 700;
+    @include serif-font;
+    font-weight: 900;
+    text-transform: capitalize;
 }
 
 .btn-xl {
     @include button-variant(white, $theme-primary, $theme-primary);
-    @include heading-font;
-    font-weight: 700;
+    @include serif-font;
+    font-weight: 900;
     border-radius: 3px;
     font-size: 18px;
+    letter-spacing: 1.5px;
+    text-transform: capitalize;
     padding: 20px 40px;
+    margin-left: 10%;
 }
 
 // Custom Navigation Bar
@@ -119,8 +123,8 @@ h1, h2, h3, h4, h5, h6 {
                 @include heading-font;
                 font-weight: 900;
                 font-size: 16px;
-                letter-spacing: 1px;
-                color: #748C7F;
+                letter-spacing: 1.5px;
+                color: #9BB398;
                 &:hover,
                 &:focus {
                     color: $theme-primary;
@@ -151,7 +155,7 @@ h1, h2, h3, h4, h5, h6 {
         transition: padding 0.3s;
         border: none;
         .navbar-brand {
-            font-size: 3em;
+            font-size: 2em;
             -webkit-transition: all 0.3s;
             -moz-transition: all 0.3s;
             transition: all 0.3s;
@@ -176,7 +180,7 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
     background-image: url('../img/header-bg.jpg');
-    padding-top: 150px;
+    padding-top: 200px;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -535,11 +539,11 @@ section {
 
 // Clients Aside
 
-aside.clients {
-    img {
-        margin: 50px auto;
-    }
-}
+// aside.clients {
+//     img {
+//         margin: 50px auto;
+//     }
+// }
 
 // Contact Section
 
