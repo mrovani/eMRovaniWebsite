@@ -7,7 +7,7 @@
 		"uuidString": "E4F9729D-1E3B-4BCC-80E9-00AA02BE733B"
 		}
 	],
-"creatorBuild": "26097",
+"creatorBuild": "26148",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -23,12 +23,15 @@
 		"oAP": "\/CNAME",
 		"oF": 0
 		},
-	"\/fonts\/Marguerite\/marguerite.ttf": {
-		"cB": 0,
-		"ft": 8192,
+	"\/css\/agency.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
 		"oA": 0,
-		"oAP": "\/fonts\/Marguerite\/marguerite.ttf",
-		"oF": 0
+		"oAP": "\/css\/agency.min.min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/gulpfile.js": {
 		"ft": 64,
@@ -85,6 +88,16 @@
 		"iS": 65748,
 		"oA": 0,
 		"oAP": "\/img\/header-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/IMG_1895.JPG": {
+		"ft": 16384,
+		"iS": 177706,
+		"oA": 0,
+		"oAP": "\/img\/IMG_1895.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -171,6 +184,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/portfolio\/cheyDogFoodCo.png": {
+		"ft": 32768,
+		"iS": 51344,
+		"oA": 0,
+		"oAP": "\/img\/portfolio\/cheyDogFoodCo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/portfolio\/dreams-preview.png": {
 		"ft": 32768,
 		"iS": 112060,
@@ -237,6 +261,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/portfolio\/homePage.png": {
+		"ft": 32768,
+		"iS": 1047209,
+		"oA": 0,
+		"oAP": "\/img\/portfolio\/homePage.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/portfolio\/roundicons-free.png": {
 		"ft": 32768,
 		"iS": 259234,
@@ -250,7 +285,7 @@
 		},
 	"\/img\/portfolio\/roundicons.png": {
 		"ft": 32768,
-		"iS": 120066,
+		"iS": 38900,
 		"oA": 0,
 		"oAP": "\/img\/portfolio\/roundicons.png",
 		"oF": 0,
@@ -376,6 +411,26 @@
 		"mi": 0,
 		"oA": 0,
 		"oAP": "\/js\/min\/jqBootstrapValidation-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/js\/min\/portfolio-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/js\/min\/min\/portfolio-min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/js\/portfolio.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/js\/min\/portfolio-min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -541,6 +596,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/_variables.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/agency.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/agency.min.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
