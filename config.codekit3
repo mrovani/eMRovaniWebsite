@@ -33,13 +33,6 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"\/fonts\/Marguerite\/marguerite.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/fonts\/Marguerite\/marguerite.ttf",
-		"oF": 0
-		},
 	"\/gulpfile.js": {
 		"ft": 64,
 		"ma": 0,
@@ -95,6 +88,16 @@
 		"iS": 65748,
 		"oA": 0,
 		"oAP": "\/img\/header-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/IMG_1895.JPG": {
+		"ft": 16384,
+		"iS": 177706,
+		"oA": 0,
+		"oAP": "\/img\/IMG_1895.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -181,6 +184,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/portfolio\/cheyDogFoodCo.png": {
+		"ft": 32768,
+		"iS": 51344,
+		"oA": 0,
+		"oAP": "\/img\/portfolio\/cheyDogFoodCo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/portfolio\/dreams-preview.png": {
 		"ft": 32768,
 		"iS": 112060,
@@ -241,6 +255,28 @@
 		"iS": 93325,
 		"oA": 0,
 		"oAP": "\/img\/portfolio\/golden.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/portfolio\/homePage.png": {
+		"ft": 32768,
+		"iS": 1047209,
+		"oA": 0,
+		"oAP": "\/img\/portfolio\/homePage.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/portfolio\/iconThumbnail.png": {
+		"ft": 32768,
+		"iS": 73042,
+		"oA": 0,
+		"oAP": "\/img\/portfolio\/iconThumbnail.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -386,6 +422,16 @@
 		"mi": 0,
 		"oA": 0,
 		"oAP": "\/js\/min\/jqBootstrapValidation-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/js\/min\/portfolio-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/js\/min\/min\/portfolio-min-min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
