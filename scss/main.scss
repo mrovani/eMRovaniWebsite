@@ -14,11 +14,11 @@ body {
 
 .text-muted-about {
     margin-top: 20px;
-    color: white;
+    color: black;
 }
 
 .text-primary {
-    color: $theme-primary;
+    color: $navy-base;
 }
 
 p {
@@ -58,12 +58,12 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 auto;
 }
 
-.bg-light-gray {
-    background-color: $gray-lighter;
+.bg-light-navy {
+    background-color: #F8F9FA;
 }
 
-.bg-darkest-gray {
-    background-color: $gray-base;
+.bg-darkest-navy {
+    background-color: $navy-base;
 }
 
 // Restyled Primary Buttons
@@ -104,7 +104,8 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .navbar-custom {
-    background: linear-gradient(rgba(25, 37, 68, 0.5), rgba(25, 37, 68, 0.2));
+    background: $navy-gradient;
+    transition: 1s;
     border-color: transparent;
     .navbar-brand {
         color: $theme-primary;
@@ -120,16 +121,18 @@ h1, h2, h3, h4, h5, h6 {
     .navbar-collapse {
         border-color: fade-out(white, .02);
 
+
+
     }
     .navbar-toggle {
-        background-color: $theme-primary;
+        background-color: $navy-base;
         border-color: $theme-primary;
         @include heading-font;
         color: white;
         font-size: 12px;
         &:hover,
         &:focus {
-            background-color: $theme-primary;
+            background-color: $navy-base;
         }
     }
     .nav {
@@ -145,7 +148,7 @@ h1, h2, h3, h4, h5, h6 {
                 &:focus {
                     color: $theme-primary;
                     outline: solid $theme-primary 1px;
-                    background-color: transparent;
+                    background: $navy-gradient;
 
 
                 }
@@ -156,21 +159,20 @@ h1, h2, h3, h4, h5, h6 {
     .navbar-nav>.active>a {
         border-radius: 0;
         color: $theme-primary;
-        background-color: transparent;
-
+        background: $navy-gradient;
 
     }
     .navbar-nav>.active>a:hover,
     .navbar-nav>.active>a:focus {
         color: $theme-primary;
-        background-color: transparent;
+        background: $navy-gradient;
 
     }
 }
 
 @media(min-width:768px) {
     .navbar-custom {
-        background: linear-gradient(rgba(25, 37, 68, 0.8), rgba(25, 37, 68, 0.6));
+        background: $navy-gradient;
         padding: 25px 0;
         border: none;
         .navbar-brand {
@@ -182,11 +184,18 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+@media(max-width:768px) {
+  .navbar-collapse{
+    background-color: $navy-base;
+  }
+}
+
 // Navbar Change on Scroll
 
 @media(min-width:768px) {
     .navbar-custom.affix {
-        background: linear-gradient(rgba(25, 37, 68, 0.9), rgba(25, 37, 68, 0.9));
+        background-color: $navy-base;
+        transition: 1s;
         padding: 10px 0;
         .navbar-brand {
             font-size: 1.5em;
@@ -254,7 +263,7 @@ section {
         font-size: 40px;
         margin-top: 0;
         margin-bottom: 15px;
-        color: $theme-primary;
+        color: $navy-dark;
     }
     h3.section-subheading {
         font-size: 16px;
@@ -263,7 +272,7 @@ section {
         font-style: italic;
         font-weight: 400;
         margin-bottom: 75px;
-        color: white;
+        color: $navy-dark;
     }
 }
 
@@ -289,7 +298,7 @@ section {
 
           margin: 0 auto;
             .portfolio-hover {
-                background: fade-out($gray-base, .4);
+                background: fade-out($theme-primary, 0.4);
                 position: absolute;
                 width: 100%;
                 height: 100%;
@@ -555,10 +564,12 @@ section {
 
 
 section#contact {
-    background-color: $gray-darker;
+    background-color: $navy-darker;
     background-image: url('../img/map-image.png');
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
+    @include background-cover;
+    max-width: 100%;
     .section-heading {
         color: $theme-primary;
     }
@@ -582,22 +593,22 @@ section#contact {
     ::-webkit-input-placeholder {
        @include heading-font;
        font-weight: 700;
-       color: $gray-base;
+       color: $navy-base;
     }
     :-moz-placeholder { /* Firefox 18- */
        @include heading-font;
        font-weight: 700;
-       color: $gray-base;
+       color: $navy-base;
     }
     ::-moz-placeholder {  /* Firefox 19+ */
        @include heading-font;
        font-weight: 700;
-       color: $gray-base;
+       color: $navy-base;
     }
     :-ms-input-placeholder {
        @include heading-font;
        font-weight: 700;
-       color: $gray-base;
+       color: $navy-base;
     }
     .text-danger {
         color: $theme-danger;
@@ -629,7 +640,7 @@ ul.social-buttons {
     li {
         a {
             display: block;
-            background-color: $gray-darker;
+            background-color: $navy-darker;
             height: 40px;
             width: 40px;
             border-radius: 100%;
@@ -707,7 +718,7 @@ ul.social-buttons {
             height:75px;
             width:1px;
             margin-left:35px;
-            background-color:$gray-darker;
+            background-color:$navy-darker;
             transform: rotate(45deg);
             -ms-transform: rotate(45deg);
             /* IE 9 */
@@ -717,7 +728,7 @@ ul.social-buttons {
             .rl {
                 height:75px;
                 width:1px;
-                background-color:$gray-darker;
+                background-color:$navy-darker;
                 transform: rotate(90deg);
                 -ms-transform: rotate(90deg);
                 /* IE 9 */
