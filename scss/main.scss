@@ -9,7 +9,7 @@ body {
 }
 
 .text-muted {
-    color: black;
+    color: $navy-light;
 }
 
 .text-muted-about {
@@ -102,10 +102,9 @@ h1, h2, h3, h4, h5, h6 {
 // Custom Navigation Bar
 
 
-
 .navbar-custom {
-    background: $navy-gradient;
-    transition: 1s;
+    background: $navy-base;
+    transition: 1.5s;
     border-color: transparent;
     .navbar-brand {
         color: $theme-primary;
@@ -142,15 +141,12 @@ h1, h2, h3, h4, h5, h6 {
                 font-weight: 900;
                 font-size: 16px;
                 letter-spacing: 2.0px;
-                margin-left: 5px;
+
                 color: #9BB398;
                 &:hover,
                 &:focus {
                     color: $theme-primary;
                     outline: solid $theme-primary 1px;
-                    background: $navy-gradient;
-
-
                 }
             }
         }
@@ -159,13 +155,13 @@ h1, h2, h3, h4, h5, h6 {
     .navbar-nav>.active>a {
         border-radius: 0;
         color: $theme-primary;
-        background: $navy-gradient;
+        background-color: $navy-base;
 
     }
     .navbar-nav>.active>a:hover,
     .navbar-nav>.active>a:focus {
         color: $theme-primary;
-        background: $navy-gradient;
+        background-color: $navy-base;
 
     }
 }
@@ -174,19 +170,29 @@ h1, h2, h3, h4, h5, h6 {
     .navbar-custom {
         background: $navy-gradient;
         padding: 25px 0;
+        -webkit-transition: padding 0.3s;
+        -moz-transition: padding 0.3s;
+        transition: padding 0.3s;
         border: none;
         .navbar-brand {
             font-size: 2em;
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            transition: all 0.3s;
+
         }
         .navbar-nav>.active>a {
             border-radius: 3px;
+            outline: solid $theme-primary 1px;
+
         }
     }
 }
 
 @media(max-width:768px) {
   .navbar-collapse{
-    background-color: $navy-base;
+    background-color: $navy-gradient;
+    transition: all 1.5s;
   }
 }
 
@@ -195,7 +201,7 @@ h1, h2, h3, h4, h5, h6 {
 @media(min-width:768px) {
     .navbar-custom.affix {
         background-color: $navy-base;
-        transition: 1s;
+        transition: all 1.5s;
         padding: 10px 0;
         .navbar-brand {
             font-size: 1.5em;

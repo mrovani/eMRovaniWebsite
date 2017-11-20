@@ -3,7 +3,7 @@ body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 .text-muted {
-  color: black; }
+  color: #7c93cf; }
 
 .text-muted-about {
   margin-top: 20px;
@@ -182,10 +182,9 @@ h1, h2, h3, h4, h5, h6 {
     background-color: white; }
 
 .navbar-custom {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(25, 37, 68, 0.5)), to(rgba(25, 37, 68, 0.1)));
-  background: linear-gradient(rgba(25, 37, 68, 0.5), rgba(25, 37, 68, 0.1));
-  -webkit-transition: 1s;
-  transition: 1s;
+  background: #192544;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
   border-color: transparent; }
   .navbar-custom .navbar-brand {
     color: #fed136;
@@ -211,44 +210,46 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 900;
     font-size: 16px;
     letter-spacing: 2.0px;
-    margin-left: 5px;
     color: #9BB398; }
     .navbar-custom .nav li a:hover, .navbar-custom .nav li a:focus {
       color: #fed136;
-      outline: solid #fed136 1px;
-      background: -webkit-gradient(linear, left top, left bottom, from(rgba(25, 37, 68, 0.5)), to(rgba(25, 37, 68, 0.1)));
-      background: linear-gradient(rgba(25, 37, 68, 0.5), rgba(25, 37, 68, 0.1)); }
+      outline: solid #fed136 1px; }
   .navbar-custom .navbar-nav > .active > a {
     border-radius: 0;
     color: #fed136;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(25, 37, 68, 0.5)), to(rgba(25, 37, 68, 0.1)));
-    background: linear-gradient(rgba(25, 37, 68, 0.5), rgba(25, 37, 68, 0.1)); }
+    background-color: #192544; }
   .navbar-custom .navbar-nav > .active > a:hover,
   .navbar-custom .navbar-nav > .active > a:focus {
     color: #fed136;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(25, 37, 68, 0.5)), to(rgba(25, 37, 68, 0.1)));
-    background: linear-gradient(rgba(25, 37, 68, 0.5), rgba(25, 37, 68, 0.1)); }
+    background-color: #192544; }
 
 @media (min-width: 768px) {
   .navbar-custom {
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(25, 37, 68, 0.5)), to(rgba(25, 37, 68, 0.1)));
     background: linear-gradient(rgba(25, 37, 68, 0.5), rgba(25, 37, 68, 0.1));
     padding: 25px 0;
+    -webkit-transition: padding 0.3s;
+    transition: padding 0.3s;
     border: none; }
     .navbar-custom .navbar-brand {
-      font-size: 2em; }
+      font-size: 2em;
+      -webkit-transition: all 0.3s;
+      transition: all 0.3s; }
     .navbar-custom .navbar-nav > .active > a {
-      border-radius: 3px; } }
+      border-radius: 3px;
+      outline: solid #fed136 1px; } }
 
 @media (max-width: 768px) {
   .navbar-collapse {
-    background-color: #192544; } }
+    background-color: linear-gradient(rgba(25, 37, 68, 0.5), rgba(25, 37, 68, 0.1));
+    -webkit-transition: all 1.5s;
+    transition: all 1.5s; } }
 
 @media (min-width: 768px) {
   .navbar-custom.affix {
     background-color: #192544;
-    -webkit-transition: 1s;
-    transition: 1s;
+    -webkit-transition: all 1.5s;
+    transition: all 1.5s;
     padding: 10px 0; }
     .navbar-custom.affix .navbar-brand {
       font-size: 1.5em; } }
