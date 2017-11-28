@@ -81,7 +81,13 @@
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+@mixin navbar-font {
+  font-family: "Open Sans", cursive;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
 @mixin heading-font {
   font-family: "Poiret One", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
+
 }

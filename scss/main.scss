@@ -39,14 +39,14 @@ a.active {
 }
 
 a {
-    color: $theme-primary;
+    color: darken($theme-primary, 10);
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: darken($theme-primary, 10%);
+    color: darken($theme-primary, 20);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -73,35 +73,34 @@ h1, h2, h3, h4, h5, h6 {
     @include serif-font;
     font-weight: 900;
     text-transform: capitalize;
+    letter-spacing: 1.5px;
 }
 
 .btn-xl {
     @include button-variant(white, $theme-primary, $theme-primary);
-    @include serif-font;
-    font-weight: 900;
+    @include navbar-font;
+    font-weight: 400;
     border-radius: 3px;
     font-size: 18px;
     letter-spacing: 1.5px;
-    text-transform: capitalize;
+    text-transform: uppercase;
     padding: 20px 40px;
 
 }
 
 .btn-xl-header {
-    @include button-variant(white, $theme-primary, $theme-primary);
+    @include button-variant($navy-darker, $theme-primary, $theme-primary);
     @include serif-font;
-    font-weight: 900;
+    font-weight: 700;
+    text-transform: capitalize;
     border-radius: 3px;
     font-size: 18px;
     letter-spacing: 1.5px;
-    text-transform: capitalize;
     padding: 20px 40px;
     margin-left: 10%;
-
 }
+
 // Custom Navigation Bar
-
-
 .navbar-custom {
     background: $navy-base;
     transition: 1.5s;
@@ -120,13 +119,11 @@ h1, h2, h3, h4, h5, h6 {
     .navbar-collapse {
         border-color: fade-out(white, .02);
 
-
-
     }
     .navbar-toggle {
         background-color: $navy-base;
         border-color: $theme-primary;
-        @include heading-font;
+        @include navbar-font;
         color: white;
         font-size: 12px;
         &:hover,
@@ -137,12 +134,11 @@ h1, h2, h3, h4, h5, h6 {
     .nav {
         li {
             a {
-                @include heading-font;
-                font-weight: 900;
+                @include navbar-font;
+                font-weight: 400;
                 font-size: 16px;
-                letter-spacing: 2.0px;
-
-                color: #9BB398;
+                letter-spacing: 2.5px;
+                color: white;
                 &:hover,
                 &:focus {
                     color: $theme-primary;
@@ -162,7 +158,6 @@ h1, h2, h3, h4, h5, h6 {
     .navbar-nav>.active>a:focus {
         color: $theme-primary;
         background-color: $navy-base;
-
     }
 }
 
@@ -179,12 +174,10 @@ h1, h2, h3, h4, h5, h6 {
             -webkit-transition: all 0.3s;
             -moz-transition: all 0.3s;
             transition: all 0.3s;
-
         }
         .navbar-nav>.active>a {
             border-radius: 3px;
             outline: solid $theme-primary 1px;
-
         }
     }
 }
@@ -192,7 +185,7 @@ h1, h2, h3, h4, h5, h6 {
 @media(max-width:768px) {
   .navbar-collapse{
     background-color: $navy-gradient;
-    transition: all 1.5s;
+    transition: 1.5s;
   }
 }
 
@@ -201,7 +194,7 @@ h1, h2, h3, h4, h5, h6 {
 @media(min-width:768px) {
     .navbar-custom.affix {
         background-color: $navy-base;
-        transition: all 1.5s;
+        transition: 1.5s;
         padding: 10px 0;
         .navbar-brand {
             font-size: 1.5em;
@@ -304,7 +297,7 @@ section {
 
           margin: 0 auto;
             .portfolio-hover {
-                background: fade-out($theme-primary, 0.4);
+                background: fade-out($navy-base, 0.2);
                 position: absolute;
                 width: 100%;
                 height: 100%;
@@ -570,7 +563,7 @@ section {
 
 
 section#contact {
-    background-color: $navy-darker;
+    background-color: $navy-base;
     background-image: url('../img/map-image.png');
     background-position: center center;
     background-repeat: no-repeat;

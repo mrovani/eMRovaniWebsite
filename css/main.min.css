@@ -27,17 +27,16 @@ a.active {
   outline: none; }
 
 a {
-  color: #fed136; }
+  color: #fec503; }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #fec503; }
+  color: #cd9f01; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Poiret One", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
   font-weight: 700; }
 
 .img-centered {
@@ -56,7 +55,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-weight: 900;
-  text-transform: capitalize; }
+  text-transform: capitalize;
+  letter-spacing: 1.5px; }
   .btn-primary:focus, .btn-primary.focus {
     color: white;
     background-color: #fec503;
@@ -94,13 +94,14 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
   background-color: #fed136;
   border-color: #fed136;
-  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-style: italic;
-  font-weight: 900;
+  font-family: "Open Sans", cursive;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 400;
   border-radius: 3px;
   font-size: 18px;
   letter-spacing: 1.5px;
-  text-transform: capitalize;
+  text-transform: uppercase;
   padding: 20px 40px; }
   .btn-xl:focus, .btn-xl.focus {
     color: white;
@@ -136,36 +137,36 @@ h1, h2, h3, h4, h5, h6 {
     background-color: white; }
 
 .btn-xl-header {
-  color: white;
+  color: #2c4076;
   background-color: #fed136;
   border-color: #fed136;
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
-  font-weight: 900;
+  font-weight: 700;
+  text-transform: capitalize;
   border-radius: 3px;
   font-size: 18px;
   letter-spacing: 1.5px;
-  text-transform: capitalize;
   padding: 20px 40px;
   margin-left: 10%; }
   .btn-xl-header:focus, .btn-xl-header.focus {
-    color: white;
+    color: #2c4076;
     background-color: #fec503;
     border-color: #b48b01; }
   .btn-xl-header:hover {
-    color: white;
+    color: #2c4076;
     background-color: #fec503;
     border-color: #f6bf01; }
   .btn-xl-header:active, .btn-xl-header.active,
   .open > .btn-xl-header.dropdown-toggle {
-    color: white;
+    color: #2c4076;
     background-color: #fec503;
     border-color: #f6bf01; }
     .btn-xl-header:active:hover, .btn-xl-header:active:focus, .btn-xl-header:active.focus, .btn-xl-header.active:hover, .btn-xl-header.active:focus, .btn-xl-header.active.focus,
     .open > .btn-xl-header.dropdown-toggle:hover,
     .open > .btn-xl-header.dropdown-toggle:focus,
     .open > .btn-xl-header.dropdown-toggle.focus {
-      color: white;
+      color: #2c4076;
       background-color: #dcab01;
       border-color: #b48b01; }
   .btn-xl-header:active, .btn-xl-header.active,
@@ -179,7 +180,7 @@ h1, h2, h3, h4, h5, h6 {
     border-color: #fed136; }
   .btn-xl-header .badge {
     color: #fed136;
-    background-color: white; }
+    background-color: #2c4076; }
 
 .navbar-custom {
   background: #192544;
@@ -198,19 +199,21 @@ h1, h2, h3, h4, h5, h6 {
   .navbar-custom .navbar-toggle {
     background-color: #192544;
     border-color: #fed136;
-    font-family: "Poiret One", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Open Sans", cursive;
     text-transform: uppercase;
+    letter-spacing: 2px;
     color: white;
     font-size: 12px; }
     .navbar-custom .navbar-toggle:hover, .navbar-custom .navbar-toggle:focus {
       background-color: #192544; }
   .navbar-custom .nav li a {
-    font-family: "Poiret One", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Open Sans", cursive;
     text-transform: uppercase;
-    font-weight: 900;
+    letter-spacing: 2px;
+    font-weight: 400;
     font-size: 16px;
-    letter-spacing: 2.0px;
-    color: #9BB398; }
+    letter-spacing: 2.5px;
+    color: white; }
     .navbar-custom .nav li a:hover, .navbar-custom .nav li a:focus {
       color: #fed136;
       outline: solid #fed136 1px; }
@@ -242,14 +245,14 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 768px) {
   .navbar-collapse {
     background-color: linear-gradient(rgba(25, 37, 68, 0.5), rgba(25, 37, 68, 0.1));
-    -webkit-transition: all 1.5s;
-    transition: all 1.5s; } }
+    -webkit-transition: 1.5s;
+    transition: 1.5s; } }
 
 @media (min-width: 768px) {
   .navbar-custom.affix {
     background-color: #192544;
-    -webkit-transition: all 1.5s;
-    transition: all 1.5s;
+    -webkit-transition: 1.5s;
+    transition: 1.5s;
     padding: 10px 0; }
     .navbar-custom.affix .navbar-brand {
       font-size: 1.5em; } }
@@ -276,7 +279,6 @@ header {
       margin-bottom: 25px; }
     header .intro-text .intro-heading {
       font-family: "Poiret One", "Helvetica Neue", Helvetica, Arial, sans-serif;
-      text-transform: uppercase;
       font-weight: 700;
       font-size: 50px;
       line-height: 50px;
@@ -295,7 +297,6 @@ header {
       margin-bottom: 25px; }
     header .intro-text .intro-heading {
       font-family: "Poiret One", "Helvetica Neue", Helvetica, Arial, sans-serif;
-      text-transform: uppercase;
       font-weight: 700;
       font-size: 75px;
       line-height: 75px;
@@ -334,7 +335,7 @@ section {
        object-fit: fill;
     margin: 0 auto; }
     #portfolio .portfolio-item .portfolio-link .portfolio-hover {
-      background: rgba(254, 209, 54, 0.6);
+      background: rgba(25, 37, 68, 0.8);
       position: absolute;
       width: 100%;
       height: 100%;
@@ -530,7 +531,7 @@ section {
     margin-top: 0; }
 
 section#contact {
-  background-color: #2c4076;
+  background-color: #192544;
   background-image: url("../img/map-image.png");
   background-position: center center;
   background-repeat: no-repeat;
@@ -554,24 +555,20 @@ section#contact {
             box-shadow: none; }
   section#contact ::-webkit-input-placeholder {
     font-family: "Poiret One", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
     font-weight: 700;
     color: #192544; }
   section#contact :-moz-placeholder {
     /* Firefox 18- */
     font-family: "Poiret One", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
     font-weight: 700;
     color: #192544; }
   section#contact ::-moz-placeholder {
     /* Firefox 19+ */
     font-family: "Poiret One", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
     font-weight: 700;
     color: #192544; }
   section#contact :-ms-input-placeholder {
     font-family: "Poiret One", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
     font-weight: 700;
     color: #192544; }
   section#contact .text-danger {
@@ -583,13 +580,11 @@ footer {
   footer span.copyright {
     line-height: 40px;
     font-family: "Poiret One", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
     text-transform: none; }
   footer ul.quicklinks {
     margin-bottom: 0;
     line-height: 40px;
     font-family: "Poiret One", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
     text-transform: none; }
 
 ul.social-buttons {

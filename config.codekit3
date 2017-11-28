@@ -195,11 +195,54 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/portfolio\/bookTrackerApp.png": {
+		"ft": 32768,
+		"iS": 141784,
+		"oA": 0,
+		"oAP": "\/img\/portfolio\/bookTrackerApp.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/portfolio\/cheyDogFoodCo.png": {
 		"ft": 32768,
 		"iS": 51344,
 		"oA": 0,
 		"oAP": "\/img\/portfolio\/cheyDogFoodCo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/portfolio\/city-street-typography-design.jpg": {
+		"ft": 16384,
+		"iS": 111717,
+		"oA": 0,
+		"oAP": "\/img\/portfolio\/city-street-typography-design.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/portfolio\/dogFoodCo2-preview.png": {
+		"ft": 32768,
+		"iS": 1047209,
+		"oA": 0,
+		"oAP": "\/img\/portfolio\/dogFoodCo2-preview.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/portfolio\/dogFoodCo2.png": {
+		"ft": 32768,
+		"iS": 119894,
+		"oA": 0,
+		"oAP": "\/img\/portfolio\/dogFoodCo2.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -239,17 +282,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/portfolio\/escape.png": {
-		"ft": 32768,
-		"iS": 85423,
-		"oA": 0,
-		"oAP": "\/img\/portfolio\/escape.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/img\/portfolio\/golden-preview.png": {
 		"ft": 32768,
 		"iS": 177338,
@@ -272,48 +304,46 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/portfolio\/homePage.png": {
-		"ft": 32768,
-		"iS": 1047209,
+	"\/img\/portfolio\/iconImages.jpeg": {
+		"ft": 16384,
+		"iS": 41946,
 		"oA": 0,
-		"oAP": "\/img\/portfolio\/homePage.png",
+		"oAP": "\/img\/portfolio\/iconImages.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/portfolio\/iconPreviewImage.png": {
+		"ft": 32768,
+		"iS": 207747,
+		"oA": 0,
+		"oAP": "\/img\/portfolio\/iconPreviewImage.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/portfolio\/iconThumbnail.png": {
+	"\/img\/portfolio\/K9s4Mobility.png": {
 		"ft": 32768,
-		"iS": 73042,
+		"iS": 184785,
 		"oA": 0,
-		"oAP": "\/img\/portfolio\/iconThumbnail.png",
+		"oAP": "\/img\/portfolio\/K9s4Mobility.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/portfolio\/roundicons-free.png": {
-		"ft": 32768,
-		"iS": 259234,
+	"\/img\/portfolio\/pencil-typography-black-design.jpg": {
+		"ft": 16384,
+		"iS": 94148,
 		"oA": 0,
-		"oAP": "\/img\/portfolio\/roundicons-free.png",
+		"oAP": "\/img\/portfolio\/pencil-typography-black-design.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/portfolio\/roundicons.png": {
-		"ft": 32768,
-		"iS": 120066,
-		"oA": 0,
-		"oAP": "\/img\/portfolio\/roundicons.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
 	"\/img\/portfolio\/startup-framework-preview.png": {
@@ -327,33 +357,22 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/portfolio\/startup-framework.png": {
+	"\/img\/portfolio\/stockApp-preview.png": {
 		"ft": 32768,
-		"iS": 187564,
+		"iS": 240000,
 		"oA": 0,
-		"oAP": "\/img\/portfolio\/startup-framework.png",
+		"oAP": "\/img\/portfolio\/stockApp-preview.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/portfolio\/treehouse-preview.png": {
+	"\/img\/portfolio\/stockApp.png": {
 		"ft": 32768,
-		"iS": 151139,
+		"iS": 97146,
 		"oA": 0,
-		"oAP": "\/img\/portfolio\/treehouse-preview.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/portfolio\/treehouse.png": {
-		"ft": 32768,
-		"iS": 80328,
-		"oA": 0,
-		"oAP": "\/img\/portfolio\/treehouse.png",
+		"oAP": "\/img\/portfolio\/stockApp.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
