@@ -3,21 +3,22 @@ body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 .text-muted {
-  color: #7c93cf; }
+  color: #344e8f; }
 
 .text-muted-about {
-  margin-top: 20px;
   color: black; }
 
 .text-primary {
   color: #192544; }
 
 p {
-  font-size: 14px;
-  line-height: 1.75; }
+  font-size: 16px;
+  line-height: 1.5; }
 
 p.large {
-  font-size: 16px; }
+  font-size: 16px;
+  letter-spacing: 0.08em;
+  padding-bottom: 10px; }
 
 a,
 a:hover,
@@ -49,32 +50,34 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #192544; }
 
 .btn-primary {
-  color: white;
+  color: #192544;
   background-color: #fed136;
   border-color: #fed136;
-  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Rokkitt", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
-  font-weight: 900;
-  text-transform: capitalize;
-  letter-spacing: 1.5px; }
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 18px;
+  padding: 20px 40px; }
   .btn-primary:focus, .btn-primary.focus {
-    color: white;
+    color: #192544;
     background-color: #fec503;
     border-color: #b48b01; }
   .btn-primary:hover {
-    color: white;
+    color: #192544;
     background-color: #fec503;
     border-color: #f6bf01; }
   .btn-primary:active, .btn-primary.active,
   .open > .btn-primary.dropdown-toggle {
-    color: white;
+    color: #192544;
     background-color: #fec503;
     border-color: #f6bf01; }
     .btn-primary:active:hover, .btn-primary:active:focus, .btn-primary:active.focus, .btn-primary.active:hover, .btn-primary.active:focus, .btn-primary.active.focus,
     .open > .btn-primary.dropdown-toggle:hover,
     .open > .btn-primary.dropdown-toggle:focus,
     .open > .btn-primary.dropdown-toggle.focus {
-      color: white;
+      color: #192544;
       background-color: #dcab01;
       border-color: #b48b01; }
   .btn-primary:active, .btn-primary.active,
@@ -86,11 +89,8 @@ h1, h2, h3, h4, h5, h6 {
   fieldset[disabled] .btn-primary.focus {
     background-color: #fed136;
     border-color: #fed136; }
-  .btn-primary .badge {
-    color: #fed136;
-    background-color: white; }
 
-.btn-xl {
+.btn {
   color: white;
   background-color: #fed136;
   border-color: #fed136;
@@ -98,89 +98,118 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 400;
-  border-radius: 3px;
+  border-radius: 6px;
   font-size: 18px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
   padding: 20px 40px; }
-  .btn-xl:focus, .btn-xl.focus {
+  .btn:focus, .btn.focus {
     color: white;
     background-color: #fec503;
     border-color: #b48b01; }
-  .btn-xl:hover {
+  .btn:hover {
     color: white;
     background-color: #fec503;
     border-color: #f6bf01; }
-  .btn-xl:active, .btn-xl.active,
-  .open > .btn-xl.dropdown-toggle {
+  .btn:active, .btn.active,
+  .open > .btn.dropdown-toggle {
     color: white;
     background-color: #fec503;
     border-color: #f6bf01; }
-    .btn-xl:active:hover, .btn-xl:active:focus, .btn-xl:active.focus, .btn-xl.active:hover, .btn-xl.active:focus, .btn-xl.active.focus,
-    .open > .btn-xl.dropdown-toggle:hover,
-    .open > .btn-xl.dropdown-toggle:focus,
-    .open > .btn-xl.dropdown-toggle.focus {
+    .btn:active:hover, .btn:active:focus, .btn:active.focus, .btn.active:hover, .btn.active:focus, .btn.active.focus,
+    .open > .btn.dropdown-toggle:hover,
+    .open > .btn.dropdown-toggle:focus,
+    .open > .btn.dropdown-toggle.focus {
       color: white;
       background-color: #dcab01;
       border-color: #b48b01; }
-  .btn-xl:active, .btn-xl.active,
-  .open > .btn-xl.dropdown-toggle {
+  .btn:active, .btn.active,
+  .open > .btn.dropdown-toggle {
     background-image: none; }
-  .btn-xl.disabled:hover, .btn-xl.disabled:focus, .btn-xl.disabled.focus, .btn-xl[disabled]:hover, .btn-xl[disabled]:focus, .btn-xl[disabled].focus,
-  fieldset[disabled] .btn-xl:hover,
-  fieldset[disabled] .btn-xl:focus,
-  fieldset[disabled] .btn-xl.focus {
+  .btn.disabled:hover, .btn.disabled:focus, .btn.disabled.focus, .btn[disabled]:hover, .btn[disabled]:focus, .btn[disabled].focus,
+  fieldset[disabled] .btn:hover,
+  fieldset[disabled] .btn:focus,
+  fieldset[disabled] .btn.focus {
     background-color: #fed136;
     border-color: #fed136; }
-  .btn-xl .badge {
-    color: #fed136;
-    background-color: white; }
 
-.btn-xl-header {
+.btn-autosize-header {
   color: #2c4076;
   background-color: #fed136;
   border-color: #fed136;
-  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Rokkitt", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
-  font-weight: 700;
+  font-weight: 900;
   text-transform: capitalize;
-  border-radius: 3px;
-  font-size: 18px;
+  border-radius: 6px;
+  font-size: 26px;
+  line-height: 1.5;
   letter-spacing: 1.5px;
-  padding: 20px 40px;
-  margin-left: 10%; }
-  .btn-xl-header:focus, .btn-xl-header.focus {
+  padding: 15px 20px; }
+  .btn-autosize-header:focus, .btn-autosize-header.focus {
     color: #2c4076;
     background-color: #fec503;
     border-color: #b48b01; }
-  .btn-xl-header:hover {
+  .btn-autosize-header:hover {
     color: #2c4076;
     background-color: #fec503;
     border-color: #f6bf01; }
-  .btn-xl-header:active, .btn-xl-header.active,
-  .open > .btn-xl-header.dropdown-toggle {
+  .btn-autosize-header:active, .btn-autosize-header.active,
+  .open > .btn-autosize-header.dropdown-toggle {
     color: #2c4076;
     background-color: #fec503;
     border-color: #f6bf01; }
-    .btn-xl-header:active:hover, .btn-xl-header:active:focus, .btn-xl-header:active.focus, .btn-xl-header.active:hover, .btn-xl-header.active:focus, .btn-xl-header.active.focus,
-    .open > .btn-xl-header.dropdown-toggle:hover,
-    .open > .btn-xl-header.dropdown-toggle:focus,
-    .open > .btn-xl-header.dropdown-toggle.focus {
+    .btn-autosize-header:active:hover, .btn-autosize-header:active:focus, .btn-autosize-header:active.focus, .btn-autosize-header.active:hover, .btn-autosize-header.active:focus, .btn-autosize-header.active.focus,
+    .open > .btn-autosize-header.dropdown-toggle:hover,
+    .open > .btn-autosize-header.dropdown-toggle:focus,
+    .open > .btn-autosize-header.dropdown-toggle.focus {
       color: #2c4076;
       background-color: #dcab01;
       border-color: #b48b01; }
-  .btn-xl-header:active, .btn-xl-header.active,
-  .open > .btn-xl-header.dropdown-toggle {
+  .btn-autosize-header:active, .btn-autosize-header.active,
+  .open > .btn-autosize-header.dropdown-toggle {
     background-image: none; }
-  .btn-xl-header.disabled:hover, .btn-xl-header.disabled:focus, .btn-xl-header.disabled.focus, .btn-xl-header[disabled]:hover, .btn-xl-header[disabled]:focus, .btn-xl-header[disabled].focus,
-  fieldset[disabled] .btn-xl-header:hover,
-  fieldset[disabled] .btn-xl-header:focus,
-  fieldset[disabled] .btn-xl-header.focus {
+  .btn-autosize-header.disabled:hover, .btn-autosize-header.disabled:focus, .btn-autosize-header.disabled.focus, .btn-autosize-header[disabled]:hover, .btn-autosize-header[disabled]:focus, .btn-autosize-header[disabled].focus,
+  fieldset[disabled] .btn-autosize-header:hover,
+  fieldset[disabled] .btn-autosize-header:focus,
+  fieldset[disabled] .btn-autosize-header.focus {
     background-color: #fed136;
     border-color: #fed136; }
-  .btn-xl-header .badge {
-    color: #fed136;
-    background-color: #2c4076; }
+
+@media screen and (max-width: 1024px) {
+  .btn-autosize-header {
+    padding: 15px 20px;
+    font-size: 26px;
+    line-height: 1.5;
+    border-radius: 6px; } }
+
+@media screen and (max-width: 992px) {
+  .btn-autosize-header {
+    padding: 15px 20px;
+    font-size: 26px;
+    line-height: 1.5;
+    border-radius: 6px; } }
+
+@media screen and (max-width: 768px) {
+  .btn-autosize-header {
+    padding: 10px 15px;
+    font-size: 22px;
+    line-height: 1.33;
+    border-radius: 6px; } }
+
+@media screen and (max-width: 450px) {
+  .btn-autosize-header {
+    padding: 5px 10px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 6px; } }
+
+@media screen and (max-width: 375px) {
+  .btn-autosize-header {
+    padding: 5px 10px;
+    font-size: 16px;
+    line-height: 1.33;
+    border-radius: 6px; } }
 
 .navbar-custom {
   background: #192544;
@@ -259,7 +288,7 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
   background-image: url("../img/header-bg.jpg");
-  padding-top: 25%;
+  padding-top: 30%;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -268,20 +297,17 @@ header {
   text-align: left;
   color: white; }
   header .intro-text {
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 50px; }
     header .intro-text .intro-lead-in {
-      font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-style: italic;
-      font-style: italic;
-      font-size: 22px;
+      font-size: 36px;
+      letter-spacing: 0.075em;
+      text-transform: capitalize;
       line-height: 22px;
-      margin-bottom: 25px; }
-    header .intro-text .intro-heading {
-      font-family: "Poiret One", "Helvetica Neue", Helvetica, Arial, sans-serif;
-      font-weight: 700;
-      font-size: 50px;
-      line-height: 50px;
+      margin-top: -20%;
+      margin-left: 0.8%;
       margin-bottom: 25px; }
 
 @media (min-width: 768px) {
@@ -289,18 +315,12 @@ header {
     padding-top: 300px;
     padding-bottom: 200px; }
     header .intro-text .intro-lead-in {
-      font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 300;
       font-style: italic;
-      font-style: italic;
-      font-size: 40px;
+      font-size: 36px;
       line-height: 40px;
-      margin-bottom: 25px; }
-    header .intro-text .intro-heading {
-      font-family: "Poiret One", "Helvetica Neue", Helvetica, Arial, sans-serif;
-      font-weight: 700;
-      font-size: 75px;
-      line-height: 75px;
-      margin-bottom: 50px; } }
+      margin-bottom: 25px; } }
 
 section {
   padding: 100px 0; }
@@ -311,7 +331,7 @@ section {
     color: #344e8f; }
   section h3.section-subheading {
     font-size: 16px;
-    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Rokkitt", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
     text-transform: none;
     font-style: italic;
@@ -370,7 +390,7 @@ section {
       text-transform: none;
       margin: 0; }
     #portfolio .portfolio-item .portfolio-caption p {
-      font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Rokkitt", "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-style: italic;
       font-style: italic;
       font-size: 16px;
@@ -531,8 +551,8 @@ section {
     margin-top: 0; }
 
 section#contact {
-  background-color: #192544;
-  background-image: url("../img/map-image.png");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(25, 37, 68, 0.5)), to(rgba(25, 37, 68, 0.5))), url("../img/contactMe-image.jpg");
+  background: linear-gradient(rgba(25, 37, 68, 0.5), rgba(25, 37, 68, 0.5)), url("../img/contactMe-image.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -540,6 +560,10 @@ section#contact {
   max-width: 100%; }
   section#contact .section-heading {
     color: #fed136; }
+  section#contact h3 {
+    color: white;
+    letter-spacing: 0.05em;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
   section#contact .form-group {
     margin-bottom: 25px; }
     section#contact .form-group input,
@@ -554,22 +578,26 @@ section#contact {
     -webkit-box-shadow: none;
             box-shadow: none; }
   section#contact ::-webkit-input-placeholder {
-    font-family: "Poiret One", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 700;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 0.75em;
     color: #192544; }
   section#contact :-moz-placeholder {
     /* Firefox 18- */
-    font-family: "Poiret One", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 700;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 0.75em;
     color: #192544; }
   section#contact ::-moz-placeholder {
     /* Firefox 19+ */
-    font-family: "Poiret One", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 700;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 0.75em;
     color: #192544; }
   section#contact :-ms-input-placeholder {
-    font-family: "Poiret One", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 700;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 0.75em;
     color: #192544; }
   section#contact .text-danger {
     color: #e74c3c; }
@@ -580,12 +608,15 @@ footer {
   footer span.copyright {
     line-height: 40px;
     font-family: "Poiret One", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: none; }
+    text-transform: none;
+    color: #2c4076;
+    font-weight: 700; }
   footer ul.quicklinks {
     margin-bottom: 0;
     line-height: 40px;
     font-family: "Poiret One", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: none; }
+    text-transform: none;
+    color: #2c4076; }
 
 ul.social-buttons {
   margin-bottom: 0; }
@@ -631,7 +662,7 @@ ul.social-buttons {
     margin-bottom: 30px; }
   .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Rokkitt", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
     font-style: italic;
     font-size: 16px; }

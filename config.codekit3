@@ -83,11 +83,48 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/img\/about\/RovaniResume.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/img\/about\/RovaniResume.pdf",
+		"oF": 0
+		},
+	"\/img\/contactMe-image.jpg": {
+		"ft": 16384,
+		"iS": 4450896,
+		"oA": 0,
+		"oAP": "\/img\/contactMe-image.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/header-bg.jpg": {
 		"ft": 16384,
 		"iS": 65748,
 		"oA": 0,
 		"oAP": "\/img\/header-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/IMG_1237.jpg": {
+		"ft": 16384,
+		"iS": 6374984,
+		"oA": 0,
+		"oAP": "\/img\/IMG_1237.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/IMG_1306.jpg": {
+		"ft": 16384,
+		"iS": 5776838,
+		"oA": 0,
+		"oAP": "\/img\/IMG_1306.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -108,87 +145,6 @@
 		"iS": 3473,
 		"oA": 0,
 		"oAP": "\/img\/initialsLogo copy.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/logos\/aetuts.jpg": {
-		"ft": 16384,
-		"iS": 2063,
-		"oA": 0,
-		"oAP": "\/img\/logos\/aetuts.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/logos\/creative-market.jpg": {
-		"ft": 16384,
-		"iS": 1766,
-		"oA": 0,
-		"oAP": "\/img\/logos\/creative-market.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/logos\/designmodo.jpg": {
-		"ft": 16384,
-		"iS": 1696,
-		"oA": 0,
-		"oAP": "\/img\/logos\/designmodo.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/logos\/envato.jpg": {
-		"ft": 16384,
-		"iS": 2040,
-		"oA": 0,
-		"oAP": "\/img\/logos\/envato.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/logos\/microlancer.jpg": {
-		"ft": 16384,
-		"iS": 2293,
-		"oA": 0,
-		"oAP": "\/img\/logos\/microlancer.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/logos\/themeforest.jpg": {
-		"ft": 16384,
-		"iS": 1689,
-		"oA": 0,
-		"oAP": "\/img\/logos\/themeforest.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/logos\/wordpress.jpg": {
-		"ft": 16384,
-		"iS": 2458,
-		"oA": 0,
-		"oAP": "\/img\/logos\/wordpress.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/map-image.png": {
-		"ft": 32768,
-		"iS": 364038,
-		"oA": 0,
-		"oAP": "\/img\/map-image.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -304,6 +260,39 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/portfolio\/hand-finger-with-a-ribbon.png": {
+		"ft": 32768,
+		"iS": 15371,
+		"oA": 0,
+		"oAP": "\/img\/portfolio\/hand-finger-with-a-ribbon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/portfolio\/iconImage.png": {
+		"ft": 32768,
+		"iS": 7280,
+		"oA": 0,
+		"oAP": "\/img\/portfolio\/iconImage.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/portfolio\/iconImage2.png": {
+		"ft": 32768,
+		"iS": 43094,
+		"oA": 0,
+		"oAP": "\/img\/portfolio\/iconImage2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/portfolio\/iconImages.jpeg": {
 		"ft": 16384,
 		"iS": 41946,
@@ -319,6 +308,17 @@
 		"iS": 207747,
 		"oA": 0,
 		"oAP": "\/img\/portfolio\/iconPreviewImage.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/portfolio\/K9s4Mobility-preview2.png": {
+		"ft": 32768,
+		"iS": 2283667,
+		"oA": 0,
+		"oAP": "\/img\/portfolio\/K9s4Mobility-preview2.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

@@ -9,12 +9,12 @@ body {
 }
 
 .text-muted {
-    color: $navy-light;
+    color: $navy-dark;
 }
 
 .text-muted-about {
-    margin-top: 20px;
     color: black;
+
 }
 
 .text-primary {
@@ -22,12 +22,14 @@ body {
 }
 
 p {
-    font-size: 14px;
-    line-height: 1.75;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 p.large {
     font-size: 16px;
+    letter-spacing: 0.08em;
+    padding-bottom: 10px;
 }
 
 a,
@@ -69,18 +71,21 @@ h1, h2, h3, h4, h5, h6 {
 // Restyled Primary Buttons
 
 .btn-primary {
-    @include button-variant(white, $theme-primary, $theme-primary);
+    @include button-variant($navy-base, $theme-primary, $theme-primary);
     @include serif-font;
-    font-weight: 900;
-    text-transform: capitalize;
+    font-weight: 400;
+    text-transform: uppercase;
     letter-spacing: 1.5px;
+    font-size: 18px;
+    padding: 20px 40px;
+
 }
 
-.btn-xl {
+.btn {
     @include button-variant(white, $theme-primary, $theme-primary);
     @include navbar-font;
     font-weight: 400;
-    border-radius: 3px;
+    border-radius: 6px;
     font-size: 18px;
     letter-spacing: 1.5px;
     text-transform: uppercase;
@@ -88,17 +93,65 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-.btn-xl-header {
+.btn-autosize-header {
     @include button-variant($navy-darker, $theme-primary, $theme-primary);
     @include serif-font;
-    font-weight: 700;
+    font-weight: 900;
     text-transform: capitalize;
-    border-radius: 3px;
-    font-size: 18px;
+    border-radius: 6px;
+    font-size: 26px;
+    line-height: 1.5;
     letter-spacing: 1.5px;
-    padding: 20px 40px;
-    margin-left: 10%;
+    padding: 15px 20px;
+
 }
+
+@media screen and (max-width: 1024px) {
+  .btn-autosize-header {
+    padding: 15px 20px;
+    font-size: 26px;
+    line-height: 1.5;
+    border-radius: 6px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .btn-autosize-header {
+    padding: 15px 20px;
+    font-size: 26px;
+    line-height: 1.5;
+    border-radius: 6px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .btn-autosize-header {
+    padding: 10px 15px;
+    font-size: 22px;
+    line-height: 1.33;
+    border-radius: 6px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .btn-autosize-header {
+    padding: 5px 10px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 6px;
+  }
+}
+
+
+@media screen and (max-width: 375px) {
+  .btn-autosize-header {
+    padding: 5px 10px;
+    font-size: 16px;
+    line-height: 1.33;
+    border-radius: 6px;
+  }
+}
+
 
 // Custom Navigation Bar
 .navbar-custom {
@@ -204,7 +257,7 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
     background-image: url('../img/header-bg.jpg');
-    padding-top: 25%;
+    padding-top: 30%;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -212,22 +265,26 @@ header {
     text-align: left;
     color: white;
     .intro-text {
-        padding-top: 100px;
-        padding-bottom: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
         .intro-lead-in {
-            @include serif-font;
+            @include body-font;
             font-style: italic;
-            font-size: 22px;
+            font-size: 36px;
+            letter-spacing: 0.075em;
+            text-transform: capitalize;
             line-height: 22px;
+            margin-top: -20%;
+            margin-left: 0.8%;
             margin-bottom: 25px;
         }
-        .intro-heading {
-            @include heading-font;
-            font-weight: 700;
-            font-size: 50px;
-            line-height: 50px;
-            margin-bottom: 25px;
-        }
+        // .intro-heading {
+        //     @include heading-font;
+        //     font-weight: 700;
+        //     font-size: 50px;
+        //     line-height: 50px;
+        //     margin-bottom: 25px;
+        // }
     }
 }
 
@@ -237,19 +294,21 @@ header {
             padding-top: 300px;
             padding-bottom: 200px;
             .intro-lead-in {
-                @include serif-font;
+                @include body-font;
+                font-weight: 300;
                 font-style: italic;
-                font-size: 40px;
+                font-size: 36px;
                 line-height: 40px;
                 margin-bottom: 25px;
+
             }
-            .intro-heading {
-                @include heading-font;
-                font-weight: 700;
-                font-size: 75px;
-                line-height: 75px;
-                margin-bottom: 50px;
-            }
+            // .intro-heading {
+            //     @include heading-font;
+            //     font-weight: 700;
+            //     font-size: 75px;
+            //     line-height: 75px;
+            //     margin-bottom: 50px;
+            // }
         }
     }
 }
@@ -563,14 +622,24 @@ section {
 
 
 section#contact {
-    background-color: $navy-base;
-    background-image: url('../img/map-image.png');
+    background: linear-gradient(
+                     rgba(25,37,68, .5),
+                     rgba(25,37,68, .5)),
+                     url('../img/contactMe-image.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     @include background-cover;
     max-width: 100%;
+
     .section-heading {
         color: $theme-primary;
+
+    }
+
+    h3 {
+      color: white;
+      letter-spacing: 0.05em;
+      @include body-font;
     }
     .form-group {
         margin-bottom: 25px;
@@ -590,23 +659,27 @@ section#contact {
         box-shadow: none;
     }
     ::-webkit-input-placeholder {
-       @include heading-font;
-       font-weight: 700;
+       @include body-font;
+       font-weight: 400;
+       font-size: 0.75em;
        color: $navy-base;
     }
     :-moz-placeholder { /* Firefox 18- */
-       @include heading-font;
-       font-weight: 700;
+       @include body-font;
+       font-weight: 400;
+       font-size: 0.75em;
        color: $navy-base;
     }
     ::-moz-placeholder {  /* Firefox 19+ */
-       @include heading-font;
-       font-weight: 700;
+       @include body-font;
+       font-weight: 400;
+       font-size: 0.75em;
        color: $navy-base;
     }
     :-ms-input-placeholder {
-       @include heading-font;
-       font-weight: 700;
+       @include body-font;
+       font-weight: 400;
+       font-size: 0.75em;
        color: $navy-base;
     }
     .text-danger {
@@ -623,12 +696,16 @@ footer {
         line-height: 40px;
         @include heading-font;
         text-transform: none;
+        color: $navy-darker;
+        font-weight: 700;
     }
     ul.quicklinks {
         margin-bottom: 0;
         line-height: 40px;
         @include heading-font;
         text-transform: none;
+        color: $navy-darker;
+
     }
 }
 

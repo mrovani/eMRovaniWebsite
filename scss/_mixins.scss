@@ -33,11 +33,13 @@
           border-color: darken($border, 25%);
     }
   }
+
   &:active,
   &.active,
   .open > &.dropdown-toggle {
     background-image: none;
   }
+
   &.disabled,
   &[disabled],
   fieldset[disabled] & {
@@ -48,12 +50,8 @@
           border-color: $border;
     }
   }
-
-  .badge {
-    color: $background;
-    background-color: $color;
-  }
 }
+
 
 // Background Cover Mixin
 
@@ -67,7 +65,7 @@
 // Font Mixins
 
 @mixin serif-font {
-  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Rokkitt", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
 }
 
