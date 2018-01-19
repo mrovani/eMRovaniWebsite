@@ -151,6 +151,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/portfolio\/bookTrackerApp-preview.png": {
+		"ft": 32768,
+		"iS": 190125,
+		"oA": 0,
+		"oAP": "\/img\/portfolio\/bookTrackerApp-preview.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/portfolio\/bookTrackerApp.png": {
 		"ft": 32768,
 		"iS": 141784,
@@ -304,6 +315,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/portfolio\/k9s4Mobility-preview.png": {
+		"ft": 32768,
+		"iS": 377978,
+		"oA": 0,
+		"oAP": "\/img\/portfolio\/k9s4Mobility-preview.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/portfolio\/K9s4Mobility-preview2.png": {
 		"ft": 32768,
 		"iS": 2283667,
@@ -315,11 +337,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/portfolio\/K9s4Mobility.png": {
+	"\/img\/portfolio\/k9s4Mobility3.png": {
 		"ft": 32768,
-		"iS": 184785,
+		"iS": 209439,
 		"oA": 0,
-		"oAP": "\/img\/portfolio\/K9s4Mobility.png",
+		"oAP": "\/img\/portfolio\/k9s4Mobility3.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -328,7 +350,7 @@
 		},
 	"\/img\/portfolio\/listMaker-preview.png": {
 		"ft": 32768,
-		"iS": 39126,
+		"iS": 23533,
 		"oA": 0,
 		"oAP": "\/img\/portfolio\/listMaker-preview.png",
 		"oF": 0,
