@@ -173,14 +173,15 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/portfolio\/city-street-typography-design.jpg": {
-		"ft": 16384,
-		"iS": 111717,
+	"\/img\/portfolio\/cheyenneDogFoodCo-CurrentSite.png": {
+		"ft": 32768,
+		"iS": 1400486,
 		"oA": 0,
-		"oAP": "\/img\/portfolio\/city-street-typography-design.jpg",
+		"oAP": "\/img\/portfolio\/cheyenneDogFoodCo-CurrentSite.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/img\/portfolio\/dogFoodCo2-preview.png": {
@@ -260,17 +261,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/portfolio\/hand-finger-with-a-ribbon.png": {
-		"ft": 32768,
-		"iS": 15371,
-		"oA": 0,
-		"oAP": "\/img\/portfolio\/hand-finger-with-a-ribbon.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/img\/portfolio\/iconImage.png": {
 		"ft": 32768,
 		"iS": 7280,
@@ -330,6 +320,28 @@
 		"iS": 184785,
 		"oA": 0,
 		"oAP": "\/img\/portfolio\/K9s4Mobility.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/portfolio\/listMaker-preview.png": {
+		"ft": 32768,
+		"iS": 39126,
+		"oA": 0,
+		"oAP": "\/img\/portfolio\/listMaker-preview.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/portfolio\/listMakerApp.png": {
+		"ft": 32768,
+		"iS": 16752,
+		"oA": 0,
+		"oAP": "\/img\/portfolio\/listMakerApp.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
