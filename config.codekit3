@@ -83,6 +83,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/img\/about\/IMG_1237.jpg": {
+		"ft": 16384,
+		"iS": 6374984,
+		"oA": 0,
+		"oAP": "\/img\/about\/IMG_1237.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/about\/IMG_1306.jpg": {
 		"ft": 16384,
 		"iS": 5776838,
@@ -118,37 +128,6 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
-		},
-	"\/img\/IMG_1237.jpg": {
-		"ft": 16384,
-		"iS": 6374984,
-		"oA": 0,
-		"oAP": "\/img\/IMG_1237.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/IMG_1895.JPG": {
-		"ft": 16384,
-		"iS": 177706,
-		"oA": 0,
-		"oAP": "\/img\/IMG_1895.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/initialsLogo copy.png": {
-		"ft": 32768,
-		"iS": 3473,
-		"oA": 0,
-		"oAP": "\/img\/initialsLogo copy.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
 	"\/img\/portfolio\/bookTrackerApp-preview.png": {
@@ -217,72 +196,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/portfolio\/dreams-preview.png": {
-		"ft": 32768,
-		"iS": 112060,
-		"oA": 0,
-		"oAP": "\/img\/portfolio\/dreams-preview.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/portfolio\/dreams.png": {
-		"ft": 32768,
-		"iS": 62658,
-		"oA": 0,
-		"oAP": "\/img\/portfolio\/dreams.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/portfolio\/escape-preview.png": {
-		"ft": 32768,
-		"iS": 165358,
-		"oA": 0,
-		"oAP": "\/img\/portfolio\/escape-preview.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/portfolio\/golden-preview.png": {
-		"ft": 32768,
-		"iS": 177338,
-		"oA": 0,
-		"oAP": "\/img\/portfolio\/golden-preview.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/portfolio\/golden.png": {
-		"ft": 32768,
-		"iS": 93325,
-		"oA": 0,
-		"oAP": "\/img\/portfolio\/golden.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/portfolio\/iconImage.png": {
-		"ft": 32768,
-		"iS": 7280,
-		"oA": 0,
-		"oAP": "\/img\/portfolio\/iconImage.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"\/img\/portfolio\/iconImage2.png": {
 		"ft": 32768,
 		"iS": 43094,
@@ -292,16 +205,6 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
-		},
-	"\/img\/portfolio\/iconImages.jpeg": {
-		"ft": 16384,
-		"iS": 41946,
-		"oA": 0,
-		"oAP": "\/img\/portfolio\/iconImages.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
 		"q": 100
 		},
 	"\/img\/portfolio\/iconPreviewImage.png": {
@@ -320,17 +223,6 @@
 		"iS": 377978,
 		"oA": 0,
 		"oAP": "\/img\/portfolio\/k9s4Mobility-preview.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/portfolio\/K9s4Mobility-preview2.png": {
-		"ft": 32768,
-		"iS": 2283667,
-		"oA": 0,
-		"oAP": "\/img\/portfolio\/K9s4Mobility-preview2.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -370,27 +262,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/portfolio\/pencil-typography-black-design.jpg": {
-		"ft": 16384,
-		"iS": 94148,
-		"oA": 0,
-		"oAP": "\/img\/portfolio\/pencil-typography-black-design.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/portfolio\/startup-framework-preview.png": {
-		"ft": 32768,
-		"iS": 262195,
-		"oA": 0,
-		"oAP": "\/img\/portfolio\/startup-framework-preview.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/img\/portfolio\/stockApp-preview.png": {
 		"ft": 32768,
 		"iS": 240000,
@@ -411,36 +282,6 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
-		},
-	"\/img\/team\/1.jpg": {
-		"ft": 16384,
-		"iS": 11310,
-		"oA": 0,
-		"oAP": "\/img\/team\/1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/team\/2.jpg": {
-		"ft": 16384,
-		"iS": 14401,
-		"oA": 0,
-		"oAP": "\/img\/team\/2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/team\/3.jpg": {
-		"ft": 16384,
-		"iS": 12159,
-		"oA": 0,
-		"oAP": "\/img\/team\/3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
 		"q": 100
 		},
 	"\/index.html": {
@@ -549,105 +390,6 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
-		},
-	"\/resume\/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/resume\/index.html",
-		"oF": 0
-		},
-	"\/resume\/scripts\/js\/main.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 0,
-		"oA": 0,
-		"oAP": "\/resume\/scripts\/js\/min\/main-min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"\/resume\/scripts\/js\/min\/main-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 0,
-		"oA": 0,
-		"oAP": "\/resume\/scripts\/js\/min\/min\/main-min-min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"\/resume\/stylesheets\/css\/index.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/resume\/stylesheets\/css\/index.min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/resume\/stylesheets\/css\/main.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/resume\/stylesheets\/css\/main.min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/resume\/stylesheets\/sass\/helpers\/_reset.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/_reset.min.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/resume\/stylesheets\/sass\/helpers\/_variables.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/_variables.min.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/resume\/stylesheets\/sass\/main\/main.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/main.min.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/resume\/stylesheets\/sass\/pages\/index.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/index.min.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
 		},
 	"\/scss\/_mixins.scss": {
 		"aP": 0,

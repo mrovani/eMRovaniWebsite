@@ -1,3 +1,0 @@
-// MAIN JAVASCRIPT FILE
-
-
