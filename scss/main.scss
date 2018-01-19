@@ -343,9 +343,13 @@ section {
 
 // Portfolio Section
 
+#portfolio{
+    margin-top: -120px;
+}
+
 #portfolio {
     .portfolio-item {
-        margin: 0 0 15px;
+        margin: 0 0 15px 0;
         right: 0;
         .portfolio-link {
             display: block;
@@ -353,8 +357,7 @@ section {
             max-width: 400px;
             width: 95%;
             object-fit: fill;
-
-          margin: 0 auto;
+            margin: 0 auto;
             .portfolio-hover {
                 background: fade-out($navy-base, 0.2);
                 position: absolute;
@@ -694,10 +697,11 @@ footer {
     text-align: center;
     span.copyright {
         line-height: 40px;
-        @include heading-font;
+        font-size: 1.25em;
+        @include body-font;
         text-transform: none;
         color: $navy-darker;
-        font-weight: 700;
+        font-weight: 400;
     }
     ul.quicklinks {
         margin-bottom: 0;
