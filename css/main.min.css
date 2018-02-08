@@ -242,8 +242,7 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 2.5px;
     color: white; }
     .navbar-custom .nav li a:hover, .navbar-custom .nav li a:focus {
-      color: #fed136;
-      outline: solid #fed136 1px; }
+      color: #fed136; }
   .navbar-custom .navbar-nav > .active > a {
     border-radius: 0;
     color: #fed136;
@@ -266,8 +265,7 @@ h1, h2, h3, h4, h5, h6 {
       -webkit-transition: all 0.3s;
       transition: all 0.3s; }
     .navbar-custom .navbar-nav > .active > a {
-      border-radius: 3px;
-      outline: solid #fed136 1px; } }
+      border-radius: 3px; } }
 
 @media (max-width: 768px) {
   .navbar-collapse {
