@@ -213,8 +213,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-custom {
   background: #192544;
-  -webkit-transition: 1.5s;
-  transition: 1.5s;
   border-color: transparent; }
   .navbar-custom .navbar-brand {
     color: #fed136;
@@ -273,15 +271,11 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 768px) {
   .navbar-collapse {
-    background-color: linear-gradient(rgba(25, 37, 68, 0.5), rgba(25, 37, 68, 0.1));
-    -webkit-transition: 1.5s;
-    transition: 1.5s; } }
+    background-color: linear-gradient(rgba(25, 37, 68, 0.5), rgba(25, 37, 68, 0.1)); } }
 
 @media (min-width: 768px) {
   .navbar-custom.affix {
     background-color: #192544;
-    -webkit-transition: 1.5s;
-    transition: 1.5s;
     padding: 10px 0; }
     .navbar-custom.affix .navbar-brand {
       font-size: 1.5em; } }

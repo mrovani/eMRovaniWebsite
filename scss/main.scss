@@ -156,7 +156,7 @@ h1, h2, h3, h4, h5, h6 {
 // Custom Navigation Bar
 .navbar-custom {
     background: $navy-base;
-    transition: 1.5s;
+    // transition: 1.5s;
     border-color: transparent;
     .navbar-brand {
         color: $theme-primary;
@@ -238,7 +238,7 @@ h1, h2, h3, h4, h5, h6 {
 @media(max-width:768px) {
   .navbar-collapse{
     background-color: $navy-gradient;
-    transition: 1.5s;
+    // transition: 1.5s;
   }
 }
 
@@ -247,7 +247,7 @@ h1, h2, h3, h4, h5, h6 {
 @media(min-width:768px) {
     .navbar-custom.affix {
         background-color: $navy-base;
-        transition: 1.5s;
+        // transition: 1.5s;
         padding: 10px 0;
         .navbar-brand {
             font-size: 1.5em;
