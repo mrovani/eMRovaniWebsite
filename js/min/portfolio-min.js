@@ -1,6 +1,6 @@
-$('.re-Designed').click(function(){
-  window.location.href="images/cOPDSolutionsMainPageCOPDSolutions.png";
-
-});
+// $('.re-Designed').click(function(){
+//   window.location.href="images/cOPDSolutionsMainPageCOPDSolutions.png";
+//
+// });
 
 

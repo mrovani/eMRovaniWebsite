@@ -779,8 +779,8 @@ ul.social-buttons {
     }
     .close-modal {
         position: absolute;
-        width:75px;
-        height:75px;
+        width:50px;
+        height:50px;
         background-color:transparent;
         top: 25px;
         right: 25px;
@@ -789,9 +789,9 @@ ul.social-buttons {
             opacity: 0.3;
         }
         .lr {
-            height:75px;
+            height:50px;
             width:1px;
-            margin-left:35px;
+            margin-left: 25px;
             background-color:$navy-darker;
             transform: rotate(45deg);
             -ms-transform: rotate(45deg);
@@ -800,7 +800,7 @@ ul.social-buttons {
             /* Safari and Chrome */
             z-index:1051;
             .rl {
-                height:75px;
+                height:50px;
                 width:1px;
                 background-color:$navy-darker;
                 transform: rotate(90deg);

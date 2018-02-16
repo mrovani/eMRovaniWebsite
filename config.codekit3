@@ -43,56 +43,6 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"\/img\/about\/1.jpg": {
-		"ft": 16384,
-		"iS": 6987,
-		"oA": 0,
-		"oAP": "\/img\/about\/1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/about\/2.jpg": {
-		"ft": 16384,
-		"iS": 15337,
-		"oA": 0,
-		"oAP": "\/img\/about\/2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/about\/3.jpg": {
-		"ft": 16384,
-		"iS": 7338,
-		"oA": 0,
-		"oAP": "\/img\/about\/3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/about\/4.jpg": {
-		"ft": 16384,
-		"iS": 4902,
-		"oA": 0,
-		"oAP": "\/img\/about\/4.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/about\/IMG_1237.jpg": {
-		"ft": 16384,
-		"iS": 6374984,
-		"oA": 0,
-		"oAP": "\/img\/about\/IMG_1237.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/img\/about\/IMG_1306.jpg": {
 		"ft": 16384,
 		"iS": 5776838,
@@ -122,7 +72,7 @@
 		},
 	"\/img\/header-bg.jpg": {
 		"ft": 16384,
-		"iS": 65748,
+		"iS": 28541,
 		"oA": 0,
 		"oAP": "\/img\/header-bg.jpg",
 		"oF": 0,
@@ -130,158 +80,134 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/portfolio\/bookTrackerApp-preview.png": {
-		"ft": 32768,
-		"iS": 190125,
+	"\/img\/portfolio\/bookTrackerApp-preview.jpg": {
+		"ft": 16384,
+		"iS": 51232,
 		"oA": 0,
-		"oAP": "\/img\/portfolio\/bookTrackerApp-preview.png",
+		"oAP": "\/img\/portfolio\/bookTrackerApp-preview.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
-	"\/img\/portfolio\/bookTrackerApp.png": {
-		"ft": 32768,
-		"iS": 141784,
+	"\/img\/portfolio\/bookTrackerApp.jpg": {
+		"ft": 16384,
+		"iS": 9889,
 		"oA": 0,
-		"oAP": "\/img\/portfolio\/bookTrackerApp.png",
+		"oAP": "\/img\/portfolio\/bookTrackerApp.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
-	"\/img\/portfolio\/cheyDogFoodCo.png": {
-		"ft": 32768,
-		"iS": 51344,
+	"\/img\/portfolio\/cheyenneDogFoodCo-CurrentSite.jpg": {
+		"ft": 16384,
+		"iS": 50893,
 		"oA": 0,
-		"oAP": "\/img\/portfolio\/cheyDogFoodCo.png",
+		"oAP": "\/img\/portfolio\/cheyenneDogFoodCo-CurrentSite.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
-	"\/img\/portfolio\/cheyenneDogFoodCo-CurrentSite.png": {
-		"ft": 32768,
-		"iS": 1400486,
+	"\/img\/portfolio\/dogFoodCo2-preview.jpg": {
+		"ft": 16384,
+		"iS": 62982,
 		"oA": 0,
-		"oAP": "\/img\/portfolio\/cheyenneDogFoodCo-CurrentSite.png",
+		"oAP": "\/img\/portfolio\/dogFoodCo2-preview.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
-	"\/img\/portfolio\/dogFoodCo2-preview.png": {
-		"ft": 32768,
-		"iS": 1047209,
+	"\/img\/portfolio\/dogFoodCo2.jpg": {
+		"ft": 16384,
+		"iS": 11589,
 		"oA": 0,
-		"oAP": "\/img\/portfolio\/dogFoodCo2-preview.png",
+		"oAP": "\/img\/portfolio\/dogFoodCo2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
-	"\/img\/portfolio\/dogFoodCo2.png": {
-		"ft": 32768,
-		"iS": 119894,
+	"\/img\/portfolio\/iconImage2.jpg": {
+		"ft": 16384,
+		"iS": 5544,
 		"oA": 0,
-		"oAP": "\/img\/portfolio\/dogFoodCo2.png",
+		"oAP": "\/img\/portfolio\/iconImage2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
-	"\/img\/portfolio\/iconImage2.png": {
-		"ft": 32768,
-		"iS": 43094,
+	"\/img\/portfolio\/iconPreviewImage.jpg": {
+		"ft": 16384,
+		"iS": 19995,
 		"oA": 0,
-		"oAP": "\/img\/portfolio\/iconImage2.png",
+		"oAP": "\/img\/portfolio\/iconPreviewImage.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
-	"\/img\/portfolio\/iconPreviewImage.png": {
-		"ft": 32768,
-		"iS": 207747,
+	"\/img\/portfolio\/k9s4Mobility-preview.jpg": {
+		"ft": 16384,
+		"iS": 42421,
 		"oA": 0,
-		"oAP": "\/img\/portfolio\/iconPreviewImage.png",
+		"oAP": "\/img\/portfolio\/k9s4Mobility-preview.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
-	"\/img\/portfolio\/k9s4Mobility-preview.png": {
-		"ft": 32768,
-		"iS": 377978,
+	"\/img\/portfolio\/k9s4Mobility3.jpg": {
+		"ft": 16384,
+		"iS": 10511,
 		"oA": 0,
-		"oAP": "\/img\/portfolio\/k9s4Mobility-preview.png",
+		"oAP": "\/img\/portfolio\/k9s4Mobility3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
-	"\/img\/portfolio\/k9s4Mobility3.png": {
-		"ft": 32768,
-		"iS": 209439,
+	"\/img\/portfolio\/listMaker-preview.jpg": {
+		"ft": 16384,
+		"iS": 18210,
 		"oA": 0,
-		"oAP": "\/img\/portfolio\/k9s4Mobility3.png",
+		"oAP": "\/img\/portfolio\/listMaker-preview.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
-	"\/img\/portfolio\/listMaker-preview.png": {
-		"ft": 32768,
-		"iS": 23533,
+	"\/img\/portfolio\/listMakerApp.jpg": {
+		"ft": 16384,
+		"iS": 9581,
 		"oA": 0,
-		"oAP": "\/img\/portfolio\/listMaker-preview.png",
+		"oAP": "\/img\/portfolio\/listMakerApp.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
-	"\/img\/portfolio\/listMakerApp.png": {
-		"ft": 32768,
-		"iS": 16752,
+	"\/img\/portfolio\/stockApp-preview.jpg": {
+		"ft": 16384,
+		"iS": 51270,
 		"oA": 0,
-		"oAP": "\/img\/portfolio\/listMakerApp.png",
+		"oAP": "\/img\/portfolio\/stockApp-preview.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
-	"\/img\/portfolio\/stockApp-preview.png": {
-		"ft": 32768,
-		"iS": 240000,
+	"\/img\/portfolio\/stockApp.jpg": {
+		"ft": 16384,
+		"iS": 8262,
 		"oA": 0,
-		"oAP": "\/img\/portfolio\/stockApp-preview.png",
+		"oAP": "\/img\/portfolio\/stockApp.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/portfolio\/stockApp.png": {
-		"ft": 32768,
-		"iS": 97146,
-		"oA": 0,
-		"oAP": "\/img\/portfolio\/stockApp.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
 	"\/index.html": {
@@ -327,6 +253,26 @@
 		"mi": 0,
 		"oA": 0,
 		"oAP": "\/js\/min\/main.min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/js\/min\/jqBootstrapValidation-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/js\/min\/min\/jqBootstrapValidation-min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/js\/min\/main-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/js\/min\/min\/main-min-min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
