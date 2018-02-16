@@ -193,7 +193,6 @@ h1, h2, h3, h4, h5, h6 {
                 &:hover,
                 &:focus {
                     color: $theme-primary;
-                    // outline: solid $theme-primary 1px;
                 }
             }
         }
@@ -228,7 +227,6 @@ h1, h2, h3, h4, h5, h6 {
         }
         .navbar-nav>.active>a {
             border-radius: 3px;
-            // outline: solid $theme-primary 1px;
         }
     }
 }
