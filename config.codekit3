@@ -97,7 +97,7 @@
 		"oAP": "\/img\/portfolio\/bookTrackerApp.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/portfolio\/cheyenneDogFoodCo-CurrentSite.jpg": {
@@ -127,6 +127,16 @@
 		"oAP": "\/img\/portfolio\/dogFoodCo2.jpg",
 		"oF": 0,
 		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/portfolio\/header-bg.jpg": {
+		"ft": 16384,
+		"iS": 73676,
+		"oA": 0,
+		"oAP": "\/img\/portfolio\/header-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -137,7 +147,7 @@
 		"oAP": "\/img\/portfolio\/iconImage2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/portfolio\/iconPreviewImage.jpg": {
@@ -167,7 +177,7 @@
 		"oAP": "\/img\/portfolio\/k9s4Mobility3.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/portfolio\/listMaker-preview.jpg": {
@@ -187,7 +197,7 @@
 		"oAP": "\/img\/portfolio\/listMakerApp.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/portfolio\/stockApp-preview.jpg": {
@@ -195,16 +205,6 @@
 		"iS": 51270,
 		"oA": 0,
 		"oAP": "\/img\/portfolio\/stockApp-preview.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/portfolio\/stockApp.jpg": {
-		"ft": 16384,
-		"iS": 8262,
-		"oA": 0,
-		"oAP": "\/img\/portfolio\/stockApp.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
